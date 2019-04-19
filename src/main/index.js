@@ -976,7 +976,7 @@ const onClose = function () {
 
 // WebSocket onMessage handler
 const onMessage = function (event) {
-  if (event.data !== 3) {
+  if (event.data !== '3') {
     addMessage(event.data)
   }
 }
